@@ -1,27 +1,14 @@
-let population = 11;
-const country = "Portugal";
-const continent = "Europe";
-const language = "Spanish";
+let age = 30;
+age = 31; //Mutated variable
 
-console.log(population / 2);
+const birthYear = 1991; //Cannot be mutated
 
-population++;
+// const name; //Uncaught SyntaxError: Missing initializer in const declaration
 
-console.log(population);
-console.log(population > 6);
-console.log(population < 33);
+// Try to have as little mutations in your code as possible - they create bugs
 
-const description1 =
-    country +
-    ' is in ' +
-    continent +
-    ', and its ' +
-    population +
-    ' million people speak ' +
-    language;
+var job = 'programmer'; //Old way of defining variables prior to ES6 
+job = 'teacher';
 
-console.log(description1);
-
-const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
-
-console.log(description); 
+lastName = 'Skillman';
+console.log(lastName); // Doesn't creat a variable on the scope - JS creates a property on the global object (not a good idea)
