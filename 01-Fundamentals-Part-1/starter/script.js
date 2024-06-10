@@ -1,8 +1,5 @@
-
-let isIsland = false;
-let language;
-
-console.log(typeof isIsland);
-console.log(typeof population);
-console.log(typeof country);
-console.log(typeof language);
+let language = 'portuguese';
+const country = 'Portugal';
+const continent = 'Europe';
+const isIsland = false;
+let isIsland = true;
