@@ -10,5 +10,14 @@ const birthYear = 1991; //Cannot be mutated
 var job = 'programmer'; //Old way of defining variables prior to ES6 
 job = 'teacher';
 
-lastName = 'Skillman';
-console.log(lastName); // Doesn't creat a variable on the scope - JS creates a property on the global object (not a good idea)
+lastName = 'Smith';
+
+//Arimethic
+multiplication = 2 ** 3; // 2 to the power of 3
+x = 3; // 3
+x += 4; // 3 + 4 = 7
+x -= 4; // 7 - 4 = 3
+x++; // 3 + 1 = 4
+
+
+console.log(x); // Doesn't creat a variable on the scope - JS creates a property on the global object (not a good idea)
