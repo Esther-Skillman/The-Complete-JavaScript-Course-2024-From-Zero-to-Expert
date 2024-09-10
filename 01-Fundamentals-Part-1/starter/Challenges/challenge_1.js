@@ -14,16 +14,13 @@
 //
 //     TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
-let massMark = 78;
-let heightMark = 1.69;
+const massMark = 78;
+const heightMark = 1.69;
 
-let massJohn = 95;
-let heightJohn = 1.88;
+const massJohn = 95;
+const heightJohn = 1.88;
 
-let BMIMark;
-let BMIJohn;
-
-BMIMark = massMark / (heightMark * heightMark)
-BMIJohn = massJohn / (heightJohn * heightJohn)
+let BMIMark = massMark / (heightMark * heightMark);
+let BMIJohn = massJohn / (heightJohn * heightJohn);
 
 console.log(BMIMark,BMIJohn)
