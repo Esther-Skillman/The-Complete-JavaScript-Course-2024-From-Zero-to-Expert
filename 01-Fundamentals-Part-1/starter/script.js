@@ -20,4 +20,4 @@ x -= 4; // 7 - 4 = 3
 x++; // 3 + 1 = 4
 
 
-console.log(x); // Doesn't create a variable on the scope - JS creates a property on the global object (not a good idea)
+console.log(x); // Doesn't create a variable on the scope by default - JS creates a property on the global object (not a good idea)
