@@ -38,3 +38,7 @@ console.log(esther);
 const newEsther = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`
 
 console.log(newEsther);
+
+console.log("Which speech marks should I use?")
+
+console.log(`Use backticks! It's standard and you don't have to decide :)`)
