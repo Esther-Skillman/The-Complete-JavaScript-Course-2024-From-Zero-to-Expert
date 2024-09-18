@@ -61,5 +61,6 @@ if (isOldEnough){
     console.log(`Sarah can start to drive`)
 }
 else{
-    console.log(`Sarah is only ${age}! she can't drive yet. She needs to wait ${18 - age} more years until she can`)
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is only ${age}! she can't drive yet. She needs to wait ${yearsLeft} more years until she can`)
 }
