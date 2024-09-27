@@ -28,26 +28,48 @@ console.log(BMIMark, BMIJohn);
 //  separation of logic and output, adopts DRY principle (avoids repeating similar strings)
 // Cons: More lines of code, extra variables could increase memory usage i.e. slower, unnecessary for MVP of challenge
 
-let higher;
-let lower;
+// let higher;
+// let lower;
+//
+// if (BMIMark > BMIJohn){
+//     higher = 'Mark'
+//     lower = 'John'
+// }
+// else {
+//     higher = 'John'
+//     lower = 'Mark'
+// }
+// console.log(`${higher}'s BMI is higher than ${lower}'s!`)
+//
+// // 2nd approach
+// // Pros: simple, more readable
+// // Cons: less flexible (logic and output are not seperated), repetitive (all console.log's would need to be changed)
+//
+// if (BMIMark > BMIJohn){
+//     console.log(`Mark's BMI is higher than John's!`)
+// }
+// else {
+//     console.log(`John's BMI is higher than Mark's!`)
+// }
+
+// Task 2 - 1st approach
+
+let higherBMI;
+let lowerBMI;
+let higherName;
+let lowerName;
 
 if (BMIMark > BMIJohn){
-    higher = 'Mark'
-    lower = 'John'
+    higherName = 'Mark';
+    lowerName = 'John';
+    higherBMI = BMIMark;
+    lowerBMI = BMIJohn;
 }
 else {
-    higher = 'John'
-    lower = 'Mark'
+    higherName = 'John';
+    lowerName = 'Mark';
+    higherBMI = BMIJohn;
+    lowerBMI = BMIMark;
 }
-console.log(`${higher}'s BMI is higher than ${lower}'s!`)
+console.log(`${higherName}'s BMI ${higherBMI} is higher than ${lowerName}'s ${lowerBMI}!`)
 
-// 2nd approach
-// Pros: simple, more readable
-// Cons: less flexible (logic and output are not seperated), repetitive (all console.log's would need to be changed)
-
-if (BMIMark > BMIJohn){
-    console.log(`Mark's BMI is higher than John's!`)
-}
-else {
-    console.log(`John's BMI is higher than Mark's!`)
-}
