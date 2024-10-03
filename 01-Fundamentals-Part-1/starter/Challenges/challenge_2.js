@@ -73,3 +73,13 @@ else {
 }
 console.log(`${higherName}'s BMI ${higherBMI} is higher than ${lowerName}'s ${lowerBMI}!`)
 
+// Task 2 - 2nd approach
+
+if (BMIMark > BMIJohn){
+    (`Mark's BMI ${BMIMark} is higher than John's ${BMIJohn}!`)
+}
+else {
+    (`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`)
+}
+
+
