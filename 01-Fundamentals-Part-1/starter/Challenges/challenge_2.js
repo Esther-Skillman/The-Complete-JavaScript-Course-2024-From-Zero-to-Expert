@@ -82,4 +82,6 @@ else {
     (`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`)
 }
 
-
+// Conclusion: 2nd approach application is more suitable for the scope of the requirement, not needing to use extra variables like in the first approach,
+// improving efficiency and is more readable for a developer. It's only downside is flexibility if we were to have more people than just John or Mark, but again,
+// is suitable given the scope of the requirement.
